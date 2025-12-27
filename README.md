@@ -95,7 +95,7 @@ Obviously you can always **reach out to me directly** via a formal approach such
 
 ## 🤝&nbsp; Found a bug? Suggesting a specific feature?
 
-Feel free to **file a new issue** with a respective title and description on the the [fransachmadhw/react_admin_ui_v1](https://github.com/hvsr-uw/Accessibility_Dashboard_React/issues) repository. If you already found a solution to your problem, **we would love to review your pull request**!
+Feel free to **file a new issue** with a respective title and description on the the [hvsr-uw/Accessibility_Dashboard_React](https://github.com/hvsr-uw/Accessibility_Dashboard_React/issues) repository. If you already found a solution to your problem, **we would love to review your pull request**!
 
 ## ✅&nbsp; Requirements
 
