@@ -213,7 +213,7 @@ const Product = () => {
             <ul>
               <li>
                 <div className="ml-[1px] relative p-4 bg-base-200 dark:bg-neutral dark:text-neutral-50 min-w-[85vw] xl:min-w-[480px] flex flex-col items-start gap-3">
-                  <span>Frans AHW purchased {data.title}</span>
+                  <span>Harsh Rathore purchased {data.title}</span>
                   <span className="text-xs">3 days ago</span>
                 </div>
               </li>

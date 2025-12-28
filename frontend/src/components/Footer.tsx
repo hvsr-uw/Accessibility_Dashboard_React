@@ -8,7 +8,7 @@ const Footer = () => {
         React Dashboard
       </span>
       <div className="flex gap-1 items-center">
-        <span className="text-sm">© Frans Admin Dashboard</span>
+        <span className="text-sm">© Harsh Admin Dashboard</span>
         <DiReact className="text-2xl xl:text-xl 2xl:text-2xl text-primary animate-spin-slow" />
       </div>
     </div>

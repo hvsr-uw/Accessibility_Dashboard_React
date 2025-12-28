@@ -25,10 +25,10 @@ const EditProfile = () => {
     fileInputRef.current?.click();
   };
 
-  const [firstName, setFirstName] = React.useState('Frans');
+  const [firstName, setFirstName] = React.useState('Harsh');
   const [lastName, setLastName] = React.useState('AHW');
-  const [nickName, setNickName] = React.useState('Frans');
-  const [email, setEmail] = React.useState('franswinata6@gmail.com');
+  const [nickName, setNickName] = React.useState('Harsh');
+  const [email, setEmail] = React.useState('Harshrathore1098@gmail.com');
   const [phone, setPhone] = React.useState('081-234-5678');
   const [address, setAddress] = React.useState(
     'Suite 948 Jl. Gajahmada No. 91, Malang, SM 74810'

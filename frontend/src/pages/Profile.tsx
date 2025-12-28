@@ -36,7 +36,7 @@ const Profile = () => {
           </div>
           <div className="flex flex-col items-start gap-1">
             <h3 className="font-semibold text-xl xl:text-3xl">
-              Frans AHW
+              Harsh
             </h3>
             <span className="font-normal text-base">Supervisor</span>
           </div>
@@ -62,9 +62,9 @@ const Profile = () => {
               </div>
               {/* column 1 text */}
               <div className="col-span-2 flex flex-col items-start xl:gap-5">
-                <span className="font-semibold">Frans</span>
-                <span className="font-semibold">AHW</span>
-                <span className="font-semibold">Frans</span>
+                <span className="font-semibold">Harsh</span>
+                <span className="font-semibold">Rathore</span>
+                <span className="font-semibold">Harsh</span>
               </div>
             </div>
             {/* column 2 */}
@@ -78,11 +78,11 @@ const Profile = () => {
               {/* column 2 text */}
               <div className="col-span-2 flex flex-col items-start xl:gap-5">
                 <span className="font-semibold">
-                  franswinata6@gmail.com
+                  Harshrathore1098@gmail.com
                 </span>
                 <span className="font-semibold">081-234-5678</span>
                 <span className="font-semibold">
-                  Suite 948 Jl. Gajahmada No. 91, Malang, SM 74810
+                  1520 Tripp Cir, Madison, WI 53706, United States
                 </span>
               </div>
             </div>
