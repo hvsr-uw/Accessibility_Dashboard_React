@@ -53,8 +53,8 @@ const EditProfile = () => {
             </button>
             <button
               onClick={() => {
-                navigate('/profile');
-                toast('Gabisa diedit dong!', { icon: '😛' });
+                  navigate('/profile');
+                toast("Can't edit this!", { icon: '😛' });
               }}
               className="btn btn-block xl:w-auto btn-primary"
             >
@@ -79,7 +79,7 @@ const EditProfile = () => {
                     preview ||
                     'https://avatars.githubusercontent.com/u/74099030?v=4'
                   }
-                  alt="foto-cowok-ganteng"
+                  alt="avatar"
                 />
               </div>
             </div>
@@ -253,7 +253,7 @@ const EditProfile = () => {
             <div className="col-span-2 flex flex-col items-start gap-5 xl:w-[240px]">
               <button
                 onClick={() =>
-                  toast('Gaboleh', {
+                  toast('Not allowed', {
                     icon: '😠',
                   })
                 }
@@ -280,7 +280,7 @@ const EditProfile = () => {
               </div>
               <button
                 onClick={() =>
-                  toast('Gaboleh', {
+                  toast('Not allowed', {
                     icon: '😠',
                   })
                 }
@@ -306,7 +306,7 @@ const EditProfile = () => {
               <button className="btn btn-ghost text-error"></button>
               <button
                 onClick={() =>
-                  toast('Gaboleh', {
+                  toast('Not allowed', {
                     icon: '😠',
                   })
                 }
@@ -342,12 +342,12 @@ const EditProfile = () => {
               <div className="modal-action mx-0 flex-col items-stretch justify-stretch gap-3">
                 <button
                   onClick={() =>
-                    toast('Lancang kamu ya!', {
-                      icon: '😠',
-                    })
-                  }
-                  className="btn btn-error btn-block text-base-100 dark:text-white"
-                >
+                      toast('How rude!', {
+                        icon: '😠',
+                      })
+                    }
+                    className="btn btn-error btn-block text-base-100 dark:text-white"
+                  >
                   Yes, I want to delete my account
                 </button>
                 <form method="dialog" className="m-0 w-full">

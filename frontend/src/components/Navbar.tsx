@@ -94,7 +94,7 @@ const Navbar = () => {
         {/* search */}
         <button
           onClick={() =>
-            toast('Gaboleh cari!', {
+            toast("Can't search!", {
               icon: '😠',
             })
           }
@@ -118,7 +118,7 @@ const Navbar = () => {
         {/* notification */}
         <button
           onClick={() =>
-            toast('Gaada notif!', {
+            toast('No notifications!', {
               icon: '😠',
             })
           }
@@ -139,10 +139,10 @@ const Navbar = () => {
             role="button"
             className="btn btn-ghost btn-circle avatar"
           >
-            <div className="w-9  rounded-full">
+              <div className="w-9  rounded-full">
               <img
                 src="https://avatars.githubusercontent.com/u/74099030?v=4"
-                alt="foto-cowok-ganteng"
+                alt="avatar"
               />
             </div>
           </div>

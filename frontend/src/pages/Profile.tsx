@@ -27,10 +27,10 @@ const Profile = () => {
         {/* block 2 */}
         <div className="flex items-center gap-3 xl:gap-8 xl:mb-4">
           <div className="avatar">
-            <div className="w-24 xl:w-36 2xl:w-48 rounded-full">
+              <div className="w-24 xl:w-36 2xl:w-48 rounded-full">
               <img
                 src="https://avatars.githubusercontent.com/u/74099030?v=4"
-                alt="foto-cowok-ganteng"
+                alt="avatar"
               />
             </div>
           </div>
@@ -122,7 +122,7 @@ const Profile = () => {
             <div className="col-span-2 flex flex-col items-start gap-5 xl:w-[240px]">
               <button
                 onClick={() =>
-                  toast('Gaboleh', {
+                  toast('Not allowed', {
                     icon: '😠',
                   })
                 }
@@ -149,7 +149,7 @@ const Profile = () => {
               </div>
               <button
                 onClick={() =>
-                  toast('Gaboleh', {
+                  toast('Not allowed', {
                     icon: '😠',
                   })
                 }
@@ -175,7 +175,7 @@ const Profile = () => {
               <button className="btn btn-ghost text-error"></button>
               <button
                 onClick={() =>
-                  toast('Gaboleh', {
+                  toast('Not allowed', {
                     icon: '😠',
                   })
                 }
@@ -211,12 +211,12 @@ const Profile = () => {
               <div className="modal-action mx-0 flex-col items-stretch justify-stretch gap-3">
                 <button
                   onClick={() =>
-                    toast('Lancang kamu ya!', {
-                      icon: '😠',
-                    })
-                  }
-                  className="btn btn-error btn-block text-base-100 dark:text-white"
-                >
+                      toast('How rude!', {
+                        icon: '😠',
+                      })
+                    }
+                    className="btn btn-error btn-block text-base-100 dark:text-white"
+                  >
                   Yes, I want to delete my account
                 </button>
                 <form method="dialog" className="m-0 w-full">

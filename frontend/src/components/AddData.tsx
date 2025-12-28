@@ -47,7 +47,7 @@ const AddData: React.FC<AddDataProps> = ({
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    toast('Gabisa dong!', { icon: '😛' });
+    toast("Can't do it!", { icon: '😛' });
   };
 
   React.useEffect(() => {
