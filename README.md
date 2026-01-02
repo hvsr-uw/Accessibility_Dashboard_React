@@ -15,6 +15,8 @@
 </p>
 <br/>
 
+Checkout Story on [Medium](https://medium.com/@harshrathore1098/building-an-accessibility-dashboard-87f4f83ebc1b)
+
 [React Admin UI](https://react-admin-ui-v1.vercel.app/) is a beautiful and open-source **Dashboard User Interface Prototype** built with TypeScript and React based. Surprisingly, this is my first time building a User Interface prototype with a bit complex components. So, my goal is IT agencies or even individual developers could use this prototype to brings insight for their future projects.
 
 Have a look at the preview of [React Admin UI](https://react-admin-ui-v1.vercel.app/) for a comprehensive list of prototype's features, core values and use cases.
